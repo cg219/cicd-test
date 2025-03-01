@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetAPIKey(t *testing.T) {
-    t.Run("Test Value", func(t *testing.T) {
-        GetAPIKey(http.Header{})
-    })
+	t.Run("Test Value", func(t *testing.T) {
+		GetAPIKey(http.Header{})
+	})
 }
